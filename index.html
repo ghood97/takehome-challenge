@@ -14,10 +14,12 @@
     <body>
       <h1 class="text-left ml-3 my-3">Giphy Searcher</h1>
       <div class="container-fluid">
-        <div class="row d-flex flex-row justify-content-start mx-auto">
-          <input id="query" class="internet-bar col-11" placeholder="internet">
-          <button id="search-btn" class="col-1">Search</button>
-        </div>
+        <form id="search-form">
+          <div class="row d-flex flex-row justify-content-start mx-auto">
+            <input required id="query" class="internet-bar col-11" placeholder="internet">
+            <button id="search-btn" class="col-1">Search</button>
+          </div>
+        </form>
       </div>
       <div class="container-fluid">
         <div class="gif-container row mx-auto d-flex justify-content-around">

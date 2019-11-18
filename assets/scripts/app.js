@@ -7,5 +7,5 @@ const events = require('./events.js')
 // require('./example')
 
 $(() => {
-  $('#search-btn').on('click', events.onSearchSubmit)
+  $('#search-form').on('submit', events.onSearchSubmit)
 })
