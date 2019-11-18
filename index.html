@@ -12,23 +12,21 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <h1 class="text-left my-3">Giphy Searcher</h1>
+      <h1 class="text-left ml-3 my-3">Giphy Searcher</h1>
       <div class="container-fluid">
         <div class="row d-flex flex-row justify-content-start mx-auto">
-          <div class="internet-bar col-11">internet</div>
+          <input class="internet-bar col-11" placeholder="internet">
           <button class="col-1">Search</button>
         </div>
       </div>
       <div class="container-fluid">
-        <div class="row mx-auto">
-          <div class="image col-12 col-lg-4 p-1 p-lg-3 r-1 c-1"><img class="img-responsive" src="./public/homer.jpg" alt="Homer"></div>
-          <div class="image col-12 col-lg-4 p-1 p-lg-3 r-1 c-2"><img class="img-responsive" src="./public/aol.jpg" alt="AOL"></div>
-          <div class="image col-12 col-lg-4 p-1 p-lg-3 r-1 c-3"><img class="img-responsive" src="./public/404.jpg" alt="404"></div>
-        </div>
-        <div class="row mx-auto">
-          <div class="image col-12 col-lg-4 p-1 p-lg-3 r-2 c-1"><img class="img-responsive" src="./public/neeson.jpeg" alt="Neeson"></div>
-          <div class="image col-12 col-lg-4 p-1 p-lg-3 r-2 c-2"><img class="img-responsive" src="./public/kip.jpeg" alt="Kip"></div>
-          <div class="image col-12 col-lg-4 p-1 p-lg-3 r-2 c-3"><img class="img-responsive" src="./public/dial-up.jpeg" alt="dial-up"></div>
+        <div class="row mx-auto d-flex justify-content-around">
+          <div class="image col-12 col-md-5 col-lg-3 m-2 r-1 c-2"><img class="col-12 img-responsive" src="./public/aol.jpg" alt="AOL"></div>
+          <div class="image col-12 col-md-5 col-lg-3 m-2 r-1 c-3"><img class="col-12 img-responsive" src="./public/404.jpg" alt="404"></div>
+          <div class="image col-12 col-md-5 col-lg-3 m-2 r-2 c-2"><img class="col-12 img-responsive" src="./public/kip.jpeg" alt="Kip"></div>
+          <div class="image col-12 col-md-5 col-lg-3 m-2 r-2 c-3"><img class="col-12 img-responsive" src="./public/dial-up.jpeg" alt="dial-up"></div>
+          <div class="image col-12 col-md-5 col-lg-3 m-2 r-1 c-1"><img class="col-12 img-responsive" src="./public/homer.jpg" alt="Homer"></div>
+          <div class="image col-12 col-md-5 col-lg-3 m-2 r-2 c-1"><img class="col-12 img-responsive" src="./public/neeson.jpeg" alt="Neeson"></div>
         </div>
       </div>
     </body>
